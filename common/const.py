@@ -1,0 +1,75 @@
+ALL_MODELS = {
+'CenterNet_HourGlass104_512x512' : 'https://tfhub.dev/tensorflow/centernet/hourglass_512x512/1?tf-hub-format=compressed',
+'CenterNet_HourGlass104_Keypoints_512x512' : 'https://tfhub.dev/tensorflow/centernet/hourglass_512x512_kpts/1?tf-hub-format=compressed',
+'CenterNet_HourGlass104_1024x1024' : 'https://tfhub.dev/tensorflow/centernet/hourglass_1024x1024/1?tf-hub-format=compressed',
+'CenterNet_HourGlass104_Keypoints_1024x1024' : 'https://tfhub.dev/tensorflow/centernet/hourglass_1024x1024_kpts/1?tf-hub-format=compressed',
+'CenterNet_Resnet50_V1_FPN_512x512' : 'https://tfhub.dev/tensorflow/centernet/resnet50v1_fpn_512x512/1?tf-hub-format=compressed',
+'CenterNet_Resnet50_V1_FPN_Keypoints_512x512' : 'https://tfhub.dev/tensorflow/centernet/resnet50v1_fpn_512x512_kpts/1?tf-hub-format=compressed',
+'CenterNet_Resnet101_V1_FPN_512x512' : 'https://tfhub.dev/tensorflow/centernet/resnet101v1_fpn_512x512/1?tf-hub-format=compressed',
+'CenterNet_Resnet50_V2_512x512' : 'https://tfhub.dev/tensorflow/centernet/resnet50v2_512x512/1?tf-hub-format=compressed',
+'CenterNet_Resnet50_V2_Keypoints_512x512' : 'https://tfhub.dev/tensorflow/centernet/resnet50v2_512x512_kpts/1?tf-hub-format=compressed',
+'EfficientDet_D0_512x512' : 'https://tfhub.dev/tensorflow/efficientdet/d0/1?tf-hub-format=compressed',
+'EfficientDet_D1_640x640' : 'https://tfhub.dev/tensorflow/efficientdet/d1/1?tf-hub-format=compressed',
+'EfficientDet_D2_768x768' : 'https://tfhub.dev/tensorflow/efficientdet/d2/1?tf-hub-format=compressed',
+'EfficientDet_D3_896x896' : 'https://tfhub.dev/tensorflow/efficientdet/d3/1?tf-hub-format=compressed',
+'EfficientDet_D4_1024x1024' : 'https://tfhub.dev/tensorflow/efficientdet/d4/1?tf-hub-format=compressed',
+'EfficientDet_D5_1280x1280' : 'https://tfhub.dev/tensorflow/efficientdet/d5/1?tf-hub-format=compressed',
+'EfficientDet_D6_1280x1280' : 'https://tfhub.dev/tensorflow/efficientdet/d6/1?tf-hub-format=compressed',
+'EfficientDet_D7_1536x1536' : 'https://tfhub.dev/tensorflow/efficientdet/d7/1?tf-hub-format=compressed',
+'SSD_MobileNet_v2_320x320' : 'https://tfhub.dev/tensorflow/ssd_mobilenet_v2/2?tf-hub-format=compressed',
+'SSD_MobileNet_V1_FPN_640x640' : 'https://tfhub.dev/tensorflow/ssd_mobilenet_v1/fpn_640x640/1?tf-hub-format=compressed',
+'SSD_MobileNet_V2_FPNLite_320x320' : 'https://tfhub.dev/tensorflow/ssd_mobilenet_v2/fpnlite_320x320/1?tf-hub-format=compressed',
+'SSD_MobileNet_V2_FPNLite_640x640' : 'https://tfhub.dev/tensorflow/ssd_mobilenet_v2/fpnlite_640x640/1?tf-hub-format=compressed',
+'SSD_ResNet50_V1_FPN_640x640_(RetinaNet50)' : 'https://tfhub.dev/tensorflow/retinanet/resnet50_v1_fpn_640x640/1?tf-hub-format=compressed',
+'SSD_ResNet50_V1_FPN_1024x1024_(RetinaNet50)' : 'https://tfhub.dev/tensorflow/retinanet/resnet50_v1_fpn_1024x1024/1?tf-hub-format=compressed',
+'SSD_ResNet101_V1_FPN_640x640_(RetinaNet101)' : 'https://tfhub.dev/tensorflow/retinanet/resnet101_v1_fpn_640x640/1?tf-hub-format=compressed',
+'SSD_ResNet101_V1_FPN_1024x1024_(RetinaNet101)' : 'https://tfhub.dev/tensorflow/retinanet/resnet101_v1_fpn_1024x1024/1?tf-hub-format=compressed',
+'SSD_ResNet152_V1_FPN_640x640_(RetinaNet152)' : 'https://tfhub.dev/tensorflow/retinanet/resnet152_v1_fpn_640x640/1?tf-hub-format=compressed',
+'SSD_ResNet152_V1_FPN_1024x1024_(RetinaNet152)' : 'https://tfhub.dev/tensorflow/retinanet/resnet152_v1_fpn_1024x1024/1?tf-hub-format=compressed',
+'Faster_R-CNN_ResNet50_V1_640x640' : 'https://tfhub.dev/tensorflow/faster_rcnn/resnet50_v1_640x640/1?tf-hub-format=compressed',
+'Faster_R-CNN_ResNet50_V1_1024x1024' : 'https://tfhub.dev/tensorflow/faster_rcnn/resnet50_v1_1024x1024/1?tf-hub-format=compressed',
+'Faster_R-CNN_ResNet50_V1_800x1333' : 'https://tfhub.dev/tensorflow/faster_rcnn/resnet50_v1_800x1333/1?tf-hub-format=compressed',
+'Faster_R-CNN_ResNet101_V1_640x640' : 'https://tfhub.dev/tensorflow/faster_rcnn/resnet101_v1_640x640/1?tf-hub-format=compressed',
+'Faster_R-CNN_ResNet101_V1_1024x1024' : 'https://tfhub.dev/tensorflow/faster_rcnn/resnet101_v1_1024x1024/1?tf-hub-format=compressed',
+'Faster_R-CNN_ResNet101_V1_800x1333' : 'https://tfhub.dev/tensorflow/faster_rcnn/resnet101_v1_800x1333/1?tf-hub-format=compressed',
+'Faster_R-CNN_ResNet152_V1_640x640' : 'https://tfhub.dev/tensorflow/faster_rcnn/resnet152_v1_640x640/1?tf-hub-format=compressed',
+'Faster_R-CNN_ResNet152_V1_1024x1024' : 'https://tfhub.dev/tensorflow/faster_rcnn/resnet152_v1_1024x1024/1?tf-hub-format=compressed',
+'Faster_R-CNN_ResNet152_V1_800x1333' : 'https://tfhub.dev/tensorflow/faster_rcnn/resnet152_v1_800x1333/1?tf-hub-format=compressed',
+'Faster_R-CNN_Inception_ResNet_V2_640x640' : 'https://tfhub.dev/tensorflow/faster_rcnn/inception_resnet_v2_640x640/1?tf-hub-format=compressed',
+'Faster_R-CNN_Inception_ResNet_V2_1024x1024' : 'https://tfhub.dev/tensorflow/faster_rcnn/inception_resnet_v2_1024x1024/1?tf-hub-format=compressed',
+'Mask_R-CNN_Inception_ResNet_V2_1024x1024' : 'https://tfhub.dev/tensorflow/mask_rcnn/inception_resnet_v2_1024x1024/1?tf-hub-format=compressed'
+}
+
+IMAGES_FOR_TEST = {
+  'Beach' : 'models/research/object_detection/test_images/image3.jpg',
+  'Dogs' : 'models/research/object_detection/test_images/image1.jpg',
+  # By Heiko Gorski, Source: https://commons.wikimedia.org/wiki/File:Naxos_Taverna.jpg
+  'Naxos Taverna' : 'https://upload.wikimedia.org/wikipedia/commons/6/60/Naxos_Taverna.jpg',
+  # Source: https://commons.wikimedia.org/wiki/File:The_Coleoptera_of_the_British_islands_(Plate_125)_(8592917784).jpg
+  'Beatles' : 'https://upload.wikimedia.org/wikipedia/commons/1/1b/The_Coleoptera_of_the_British_islands_%28Plate_125%29_%288592917784%29.jpg',
+  # By Américo Toledano, Source: https://commons.wikimedia.org/wiki/File:Biblioteca_Maim%C3%B3nides,_Campus_Universitario_de_Rabanales_007.jpg
+  'Phones' : 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Biblioteca_Maim%C3%B3nides%2C_Campus_Universitario_de_Rabanales_007.jpg/1024px-Biblioteca_Maim%C3%B3nides%2C_Campus_Universitario_de_Rabanales_007.jpg',
+  # Source: https://commons.wikimedia.org/wiki/File:The_smaller_British_birds_(8053836633).jpg
+  'Birds' : 'https://upload.wikimedia.org/wikipedia/commons/0/09/The_smaller_British_birds_%288053836633%29.jpg',
+}
+
+COCO17_HUMAN_POSE_KEYPOINTS = [
+  (0, 1),
+  (0, 2),
+  (1, 3),
+  (2, 4),
+  (0, 5),
+  (0, 6),
+  (5, 7),
+  (7, 9),
+  (6, 8),
+  (8, 10),
+  (5, 6),
+  (5, 11),
+  (6, 12),
+  (11, 12),
+  (11, 13),
+  (13, 15),
+  (12, 14),
+  (14, 16)
+]
