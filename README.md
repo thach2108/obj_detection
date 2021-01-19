@@ -1,3 +1,7 @@
+python -m venv my_env
+source my_env/bin/activate
+python -m pip install --upgrade pip
+
 # obj_detection
 
 cd models/research
